@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Production builds
+dist/
+frontend/dist/
+
+# Binaries & Executables
+backend/backend
+backend/backend_app
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Database files
+*.db
+*.db-journal
+backend/*.db
+
+# Environment variables
+.env
+backend/.env
+
+# IDE / System
+.DS_Store
+.vscode/
+.idea/
