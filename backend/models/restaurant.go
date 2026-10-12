@@ -20,4 +20,3 @@ type Restaurant struct {
 	UpdatedAt   time.Time      `json:"updated_at"`
 	DeletedAt   gorm.DeletedAt `gorm:"index" json:"-"`
 }
-//i want to mereg this pr 
